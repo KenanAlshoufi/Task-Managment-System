@@ -474,7 +474,7 @@ Example tasks:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KenanAlshoufi/TaskFlow.git
+git clone [https://github.com/KenanAlshoufi/Task-Managment-System.git]
 ```
 
 
@@ -588,8 +588,6 @@ The backend and Windows Forms client are being developed and improved continuous
 ## 📄License
 
 This project is created for learning, portfolio, and demonstration purposes.
-
-You may add an open-source license later if you want to allow reuse or contributions.
 
 ---
 

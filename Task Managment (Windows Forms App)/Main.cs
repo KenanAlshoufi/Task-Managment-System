@@ -107,10 +107,14 @@ namespace Task_Managment__Windows_Forms_App_
 
         private async Task LoadAllTaskForUser()
         {
+            DTOTask = null;
+           
             await GetAllTaskForUserID();
+
+            flowLayoutPanel1.Controls.Clear();
+
             if (DTOTask != null)
             {
-                flowLayoutPanel1.Controls.Clear();
                 foreach (var item in DTOTask)
                 {
                     ctrlTaskView taskView = new ctrlTaskView(item);
@@ -173,6 +177,7 @@ namespace Task_Managment__Windows_Forms_App_
         {
             frmMyTasks myTasks = new frmMyTasks(_UserInfo);
             myTasks.ShowDialog();
+
             Form1_Load(null, null);
         }
 

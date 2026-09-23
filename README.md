@@ -1,4 +1,13 @@
-# TaskFlow — Task Management System
+# 🚀TaskFlow — Task Management System
+
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![ADO.NET](https://img.shields.io/badge/ADO.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 TaskFlow is a modern task management system built with **C#**, **ASP.NET Core Web API**, **SQL Server**, and **Windows Forms**.
 
@@ -9,7 +18,7 @@ The current client is a Windows Forms desktop application, while the architectur
 
 ---
 
-## Overview
+## 📋Overview
 
 TaskFlow helps teams organize projects, assign tasks, monitor progress, manage priorities, and keep track of deadlines from one centralized system.
 
@@ -28,16 +37,16 @@ The project demonstrates:
 
 ---
 
-## Main Features
+## ✨Main Features
 
-### Authentication
+### 🔐Authentication
 
 - User login
 - Secure password hashing
 - User validation
 - Role-based access structure
 
-### Project Management
+### 📁Project Management
 
 - Create projects
 - Update project information
@@ -46,7 +55,7 @@ The project demonstrates:
 - View project progress
 - Add tasks to projects
 
-### Task Management
+### ✅Task Management
 
 - Create tasks
 - Update tasks
@@ -58,20 +67,20 @@ The project demonstrates:
 - Track task progress
 - Filter tasks by status
 
-### User Management
+### 👥User Management
 
 - Manage users
 - Assign roles
 - Assign users to projects
 - Assign tasks to employees
 
-### File Handling
+### 📎File Handling
 
 - Upload files/images to the server
 - Download files/images through the API
 - `multipart/form-data` support
 
-### Dashboard
+### 📊Dashboard
 
 The system is designed to display useful statistics such as:
 
@@ -84,7 +93,7 @@ The system is designed to display useful statistics such as:
 
 ---
 
-## Architecture
+## 🏗️Architecture
 
 TaskFlow follows a layered architecture.
 
@@ -147,9 +156,9 @@ TaskFlow
 
 ---
 
-## Technologies
+## 🛠️Technologies
 
-### Backend
+### 💻Backend
 
 - C#
 - .NET 8
@@ -176,7 +185,7 @@ TaskFlow
 - JSON Serialization / Deserialization
 - Reusable UserControls
 
-### Security
+### 🔒Security
 
 - ASP.NET Core `PasswordHasher`
 - Password hashing and verification
@@ -185,7 +194,7 @@ TaskFlow
 
 ---
 
-## Database Design
+## 🗃️Database Design
 
 Main tables include:
 
@@ -231,7 +240,7 @@ A single employee can have multiple tasks, while each task is assigned to one em
 
 ---
 
-## REST API
+## 🌐REST API
 
 TaskFlow uses standard HTTP methods.
 
@@ -268,7 +277,7 @@ DELETE /api/tasks/{id}
 
 ---
 
-## DTOs
+## 📦DTOs
 
 The project uses **Data Transfer Objects (DTOs)** to separate internal application data from the data exposed through the API.
 
@@ -293,7 +302,11 @@ DTOs are kept in a separate project so they can be reused where needed.
 
 ---
 
-## Password Security
+## 🔑Password Security
+
+![Password Hashing](https://img.shields.io/badge/Security-Password%20Hashing-success?style=for-the-badge)
+![HTTPS](https://img.shields.io/badge/Security-HTTPS-blue?style=for-the-badge)
+![Authentication](https://img.shields.io/badge/Security-Authentication-purple?style=for-the-badge)
 
 Passwords are never stored as plain text.
 
@@ -447,7 +460,7 @@ Example tasks:
 
 ---
 
-## Getting Started
+## 🚀Getting Started
 
 ### Requirements
 
@@ -461,12 +474,9 @@ Example tasks:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KenanAlshoufi/TaskFlow.git
+git clone [https://github.com/KenanAlshoufi/Task-Managment-System.git]
 ```
 
-Then open the solution in Visual Studio.
-
----
 
 ## 2. Configure the Database
 
@@ -483,10 +493,6 @@ Trusted_Connection=True;
 TrustServerCertificate=True;
 ```
 
-> Do not commit real database passwords or secrets to GitHub.
-
----
-
 ## 3. Run the API
 
 Set the API project as the startup project and run it.
@@ -497,9 +503,7 @@ Example local address:
 https://localhost:5001/
 ```
 
-Swagger can be used to test the API during development.
 
----
 
 ## 4. Configure the Client
 
@@ -516,35 +520,17 @@ Then run the Windows Forms project.
 
 ---
 
-## Screenshots
+## 🖼️Screenshots
 
-Add screenshots to:
+<img width="1371" height="724" alt="image" src="https://github.com/user-attachments/assets/b44b83f5-9cdc-446f-b03e-8a481fe2d8fd" />
+<img width="709" height="389" alt="image" src="https://github.com/user-attachments/assets/5078c64f-fb9b-4d8e-9191-b0c0b4d636c7" />
 
-```text
-docs/screenshots/
-```
 
-Recommended files:
 
-```text
-Login.png
-Dashboard.png
-Projects.png
-Tasks.png
-TaskDetails.png
-```
-
-Example:
-
-```md
-![Login](docs/screenshots/Login.png)
-![Projects](docs/screenshots/Projects.png)
-![Tasks](docs/screenshots/Tasks.png)
-```
 
 ---
 
-## Roadmap
+## 🗺️Roadmap
 
 - [ ] Complete dashboard analytics
 - [ ] Improve role-based authorization
@@ -560,7 +546,7 @@ Example:
 
 ---
 
-## What I Learned
+## 📚What I Learned
 
 This project helped me practice and understand:
 
@@ -580,7 +566,7 @@ This project helped me practice and understand:
 
 ---
 
-## Project Status
+## 🚧Project Status
 
 > **Under active development**
 
@@ -588,7 +574,7 @@ The backend and Windows Forms client are being developed and improved continuous
 
 ---
 
-## Author
+## 👨‍💻Author
 
 **Kenan Alshoufi**
 
@@ -599,11 +585,9 @@ The backend and Windows Forms client are being developed and improved continuous
 
 ---
 
-## License
+## 📄License
 
 This project is created for learning, portfolio, and demonstration purposes.
-
-You may add an open-source license later if you want to allow reuse or contributions.
 
 ---
 
